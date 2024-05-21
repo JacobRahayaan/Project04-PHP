@@ -52,7 +52,7 @@
             <form method="post" action="">
                 <div class="form-group">
                     <label for="data-nama">Nama:</label>
-                    <input type="text" id="data-nama" form="data-nama">
+                    <input type="text" name="data-nama" id="data-nama">
                 </div>
                 
                 <div class="form-group">

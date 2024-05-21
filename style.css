@@ -1,0 +1,188 @@
+*, html, body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body{
+  background-image: url('gambar/modern-geometrical-background-with-white-triangles.jpg');
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: multiply;
+  background-attachment: fixed;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 97%;
+  height: 80px;
+  background-color: rgb(41, 37, 70);
+}
+
+.brand{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+.firstname{
+  color: white;
+  font-weight: 700;
+}
+
+.lastname{
+  color: crimson;
+  font-weight: 400;
+  padding-left: 4px;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation > li{
+  list-style-type: none;
+  padding: 15px;
+}
+
+.navigation > li > a{
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigation>li>a:hover{
+  color: rgba(94, 235, 223, 0.719);
+  transition: all .3s ease-in-out;
+}
+
+.main{
+  background-color: white;
+  margin : 15px;
+  padding : 15px;
+}
+
+.content img{
+  height: 300px;
+  width: 600px;
+}
+
+/* contact */
+.konten{
+  margin :20px;
+  padding : 20px;
+  font-size: 20px;
+}
+
+.konten img{
+  height: 20px;
+  width: 20px;
+}
+
+.konten ul{
+  list-style-type: none;
+}
+
+.form-group label{
+  display: block;
+  font-size: 20px;
+}
+
+.form-group input{
+  display: block;
+  margin-top: 10px;
+  width: 60%;
+}
+
+.form-group textarea{
+  display: block;
+  margin-top: 10px;
+  height: 200px;
+  width: 60%;
+}
+
+.btn{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: darkblue;
+  background-color : whitesmoke;
+  border: 0px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color:darkblue;
+  color: white;
+}
+
+
+/*blog*/
+.main > ul > li{
+  list-style-type: none;
+}
+  
+.main>ul>li>a{
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.main #Blog1{
+  padding: 20px;
+}
+
+.main #Blog1>img{
+  height: 200px;
+  width: 400px;
+}
+
+.main #Blog2 {
+  padding: 20px;
+}
+
+.main #Blog2>img{
+  height: 200px;
+  width: 400px;
+}
+
+.main #Blog3{
+  padding: 20px;
+}
+
+.main #Blog3>img{
+  height: 200px;
+  width: 400px;
+}
+
+.content{
+  text-align: center;
+  margin-top: 100px;
+}
+.content img{
+  height: 150px;
+  width: 200px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.content img:hover{
+  height: 200px;
+  width: 300px;
+}
+
+#selengkapnya{
+  display: none;
+}
